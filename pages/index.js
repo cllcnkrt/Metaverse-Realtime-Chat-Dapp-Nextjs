@@ -1,6 +1,9 @@
 import Head from 'next/head'
+import Login from '../components/Login'
 
 export default function Home() {
+  const isAuthenticated = false;
+
   return (
     <div className="">
       <Head>
@@ -8,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-     <h1>Welcome</h1>
+     <Login/>
     </div>
   )
 }
