@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useMoralis } from 'react-moralis';
+import Avatar from './Avatar';
 
 function Header() {
   const { user } = useMoralis();
@@ -16,7 +17,9 @@ function Header() {
         </div>
 
         <div>
-          <div>{/* Avatar */}</div>
+          <div>
+            <Avatar logoutOnPress/>
+          </div>
           {/* welcome message */}
           {/* username */}
           {/* Change username component */}
