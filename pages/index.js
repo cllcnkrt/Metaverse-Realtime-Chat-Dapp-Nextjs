@@ -15,14 +15,10 @@ export default function Home() {
         <title>Metaverse</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className="max-w-screen-2xl mx-auto">
         <Header />
         <Messages />
       </div>
-
-      {/* Footer */}
-      <button onClick={logout}>Logout</button>
     </div>
   );
 }

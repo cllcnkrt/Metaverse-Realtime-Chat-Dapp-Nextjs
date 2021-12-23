@@ -1,14 +1,16 @@
 import { useMoralis } from 'react-moralis';
 
 function ChangeUsername() {
-  const { setUserData, isUserUptading, userError, user } = useMoralis();
+  const { setUserData, isUserUptading, user } = useMoralis();
 
   const setUsername = () => {
     const username = prompt(
       `Enter your new username (current: ${user.getUsername()})`
     );
-
-    if (!username) return;
+    user.get('ethAddress');
+    if (!username) {
+      username = user.get('ethAddress');
+    }
 
     setUserData({
       username,
@@ -21,7 +23,7 @@ function ChangeUsername() {
         onClick={setUsername}
         className="hover:text-pink-700 font-bold"
       >
-        Change your Username
+        Change Your Username
       </button>
     </div>
   );

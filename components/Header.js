@@ -11,19 +11,27 @@ function Header() {
         <div className="relative h-24 w-24 mx-auto hidden lg:inline-grid">
           <Image
             className="rounded-full"
-            src="https://www.teknogundemi.com/wp-content/uploads/2021/10/metaverse-nasil-kullanilir.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png"
             objectFit="cover"
             layout="fill"
           />
         </div>
 
         <div className="col-span-4 text-left lg:text-center">
-          <div className="relative h-36 w-36 lg:mx-auto border-pink-500 border-8 rounded-full">
+          <div className="relative h-24 w-24 lg:mx-auto border-pink-500 border-8 rounded-full">
             <Avatar logoutOnPress />
           </div>
-          <h1 className="text-3xl"> Welcome to Metaverse</h1>
-          <h2 className="text-5xl font-bold truncate">{user.getUsername()}</h2>
+          <h1 className="text-2xl"> Welcome to Metaverse</h1>
+          <h2 className="text-4xl font-bold truncate">{user.getUsername()}</h2>
           <ChangeUsername />
+        </div>
+        <div className="relative h-24 w-24 mx-auto hidden lg:inline-grid">
+          <Image
+            className="rounded-full"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png"
+            objectFit="cover"
+            layout="fill"
+          />
         </div>
       </div>
     </div>
