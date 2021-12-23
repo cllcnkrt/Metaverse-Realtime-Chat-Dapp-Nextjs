@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { ByMoralis, useMoralis, useMoralisQuery } from 'react-moralis';
+import Message from './Message';
 import SendMessage from './SendMessage';
 
 const MINS_DURATION = 15;
@@ -30,7 +31,11 @@ function Messages() {
           style={{ marginLeft: 'auto', marginRight: 'auto' }}
         />
       </div>
-      <div></div>
+      <div className="space-y-10 p-4">
+        {data.map((message) => (
+          <Message key={message.id} message={message} />
+        ))}
+      </div>
       <div className="flex justify-center">
         <SendMessage endOfMessageRef={endOfMessageRef} />
       </div>
