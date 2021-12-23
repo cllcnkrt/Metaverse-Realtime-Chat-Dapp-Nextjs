@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useMoralis } from 'react-moralis';
 import Header from '../components/Header';
 import Login from '../components/Login';
+import Messages from '../components/Messages';
 
 export default function Home() {
   const { isAuthenticated, logout } = useMoralis();
