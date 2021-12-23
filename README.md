@@ -1,27 +1,20 @@
-# Next.js + Tailwind CSS Example
+# Realtime Chat Dapp
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+You can login using your metamask wallet and chat through the decentralized application.
 
-## Preview
+Live Demo: [Metaverse Chat Dapp](https://metaverse-realtime-chat-dapp-nextjs.vercel.app/)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+### Topics
+- React
+- Next.js
+- TailwindCSS
+- Web 3.0 
+- Blockchain
+- Moralis
+- MetaMask
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![Login](https://raw.githubusercontent.com/cllcnkrt/Metaverse-Realtime-Chat-Dapp-Nextjs/main/public/images/metalogin.PNG)
 
-## Deploy your own
+![Login](https://raw.githubusercontent.com/cllcnkrt/Metaverse-Realtime-Chat-Dapp-Nextjs/main/public/images/metaverse1.PNG)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+![Login](https://raw.githubusercontent.com/cllcnkrt/Metaverse-Realtime-Chat-Dapp-Nextjs/main/public/images/metaverse2.PNG)
