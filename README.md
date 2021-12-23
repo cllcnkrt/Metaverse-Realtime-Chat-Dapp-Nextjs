@@ -1,6 +1,6 @@
 # Realtime Chat Dapp
 
-You can login using your metamask wallet and chat through the decentralized application.
+You can login using your metamask wallet and chat through the decentralized application. Only messages sent within the last 15 minutes are displayed.
 
 Live Demo: [Metaverse Chat Dapp](https://metaverse-realtime-chat-dapp-nextjs.vercel.app/)
 
