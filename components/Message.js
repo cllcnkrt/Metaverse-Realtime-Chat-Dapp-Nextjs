@@ -26,8 +26,13 @@ function Message({ message }) {
         <p>{message.get('message')}</p>
       </div>
 
-      
-
+      <p
+        className={`absolute -bottom-5 text-xs ${
+          isUserMessage ? 'text-pink-300' : 'text-blue-400'
+        }`}
+      >
+        {message.get('username')}
+      </p>
     </div>
   );
 }
